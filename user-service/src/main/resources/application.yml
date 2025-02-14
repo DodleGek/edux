@@ -1,0 +1,14 @@
+server:
+  port: 8301
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://139.196.111.59:13306/edux?useUnicode=true&characterEncoding=utf-8
+    username: ENC(lCciN5nzWNIkA3Z3nTo0FA==)
+    password: ENC(t05V5nq3/YTRywucpRMBax0jWfW0be0w)
+  data:
+    redis:
+      host: 139.196.111.59
+      port: 26739
+      password: ENC(ajk9ba1/BUMj4evGyIqOJ3Neab48jMk6qzkgsCs4kmY=)
+      database: 0
