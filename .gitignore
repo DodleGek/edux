@@ -1,0 +1,54 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 相关文件
+.idea/
+*.iml
+out/
+
+# 编译生成的文件和目录
+target/
+build/
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# 环境配置文件
+*.properties
+# 如果需要跟踪特定的配置文件，可以在后面取消注释并添加具体文件名
+#!application-prod.properties
+
+# 数据库相关文件
+*.sql
+*.dump
+
+# 本地 Maven 仓库缓存
+.mvn/
+mvnw
+mvnw.cmd
+
+# 依赖下载的本地缓存
+.gradle/
+gradle/
+build.gradle
+gradlew
+gradlew.bat
+
+# 测试报告
+test-reports/
+
+# 自定义的临时或备份文件
+*.bak
+*.swp
+
+# 生成的文档
+docs/
+
+# 部署相关文件
+deploy/
